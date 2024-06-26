@@ -1,0 +1,75 @@
+baseURL = 'http://localhost:1313'
+languageCode = 'en-us'
+title = 'Pymtech S.A.S'
+
+[params]
+  author = 'Pymtech S.A.S'
+  authorimage = '../assets/images/global/author.webp'
+  moto = 'Custom solutions to technify and modernize companies, powered by Pymtech.'
+  description = 'Loremipsum blabblaba'
+  disable_theme_toggle = false
+  disable_stay_uptodate = false
+  [params.contact]
+    email = 'pymtech@pymtech-co.com'
+    phone = '+57 321-852-2691'
+  [params.social_media]
+    [social_media]
+
+      [social_media.github]
+      enabled = true
+      url = "https://github.com/pymtech-co.com"
+
+      [social_media.facebook]
+      enabled = true
+      url = "https://facebook.com/pymtech-co.com"
+
+      [social_media.instagram]
+      enabled = true
+      url = "https://instagram.com/pymtech-co.com"
+
+      [social_media.twitter]
+      enabled = true
+      url = "https://twitter.com/pymtech-co.com"
+
+
+DefaultContentLanguage = 'en'
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+canonifyURLs = true
+paginate = 9
+enableInlineShortcodes = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+    [markup.goldmark.typographer]
+      apostrophe = '&rsquo;'
+      disable = false
+      ellipsis = '&hellip;'
+      emDash = '&mdash;'
+      enDash = '&ndash;'
+      leftAngleQuote = '&laquo;'
+      leftDoubleQuote = '&ldquo;'
+      leftSingleQuote = '&lsquo;'
+      rightAngleQuote = '&raquo;'
+      rightDoubleQuote = '&rdquo;'
+      rightSingleQuote = '&rsquo;'
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      wrapStandAloneImageWithinParagraph = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false

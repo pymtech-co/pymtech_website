@@ -1,0 +1,31 @@
+{
+  "name": "pymtech_website",
+  "version": "0.1.1",
+  "description": "Hugo + Alpine.js + TailwindCSS",
+  "main": "index.js",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.13",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "start": "hugo server --navigateToChanged",
+    "dev": "hugo server --navigateToChanged -D --disableFastRender",
+    "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
+    "watch:hugo": "hugo server",
+    "build": "hugo --minify",
+    "test": "hugo"
+  },
+  "keywords": [
+    "hugo",
+    "tailwind",
+    "tailwindcss",
+    "minimal",
+    "responsive",
+    "company"
+
+  ],
+  "author": "PYMTECH S.A.S"
+}
