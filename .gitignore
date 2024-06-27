@@ -1,0 +1,9 @@
+# History
+.history
+
+# Node modules
+pymtech_web/node_modules
+
+# Public Hugo files
+pymtech_web/public
+pymtech_web/.hugo_build.lock
