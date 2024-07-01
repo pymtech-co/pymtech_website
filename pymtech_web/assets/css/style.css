@@ -3084,7 +3084,7 @@ video {
 
 .bg-primary-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 52 236 / var(--tw-bg-opacity));
+  background-color: rgb(134 95 157 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -4130,7 +4130,7 @@ EmojiSymbols;
 
 .hover\:bg-primary-800:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(14 17 158 / var(--tw-bg-opacity));
+  background-color: rgb(44 33 69 / var(--tw-bg-opacity));
 }
 
 .hover\:text-black:hover {

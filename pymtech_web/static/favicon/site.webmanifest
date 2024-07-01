@@ -5,7 +5,7 @@
         {
             "src": "/favicon/logo_pymtech_P_black_whitebg_squared.PNG",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/PNG"
         }
     ],
     "theme_color": "#ffffff",
