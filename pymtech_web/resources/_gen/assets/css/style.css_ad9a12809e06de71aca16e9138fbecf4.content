@@ -4168,7 +4168,7 @@ EmojiSymbols;
 
 .focus\:bg-primary-600:focus {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 52 236 / var(--tw-bg-opacity));
+  background-color: rgb(88 71 143 / var(--tw-bg-opacity));
 }
 
 .focus\:bg-primary-700:focus {
@@ -4252,12 +4252,12 @@ EmojiSymbols;
   text-decoration-line: underline;
 }
 
-.prose-a\:text-blue-600 :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+.prose-a\:text-purple-600 :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
-.hover\:prose-a\:text-blue-500 :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))):hover {
+.hover\:prose-a\:text-purple-500 :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))):hover {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
