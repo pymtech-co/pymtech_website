@@ -66,28 +66,19 @@ enableInlineShortcodes = true
     placeholder = "Enter your email"
     button = "Notify me"
 
-
   [params.contact]
     email = 'pymtech@pymtech-co.com'
     phone = '+57 321-852-2691'
   [params.social_media]
-    [social_media]
-      [social_media.github]
+    [params.social_media.github]
       enabled = true
       url = "https://github.com/pymtech-co.com"
-
-      [social_media.facebook]
+    [params.social_media.facebook]
       enabled = true
-      url = "https://facebook.com/pymtech-co.com"
-
-      [social_media.instagram]
+      url = "https://facebook.com/nusserstudios"
+    [params.social_media.instagram]
       enabled = true
-      url = "https://instagram.com/pymtech-co.com"
-      instagramIcon = "fab fa-instagram"
-
-      [social_media.twitter]
-      enabled = true
-      url = "https://twitter.com/pymtech-co.com"
+      url = "https://instagram.com/pymtech.co"
 
   [menu]
   [[menu.main]]
