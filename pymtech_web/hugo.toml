@@ -14,7 +14,7 @@ enableInlineShortcodes = true
 
 [params]
   author = 'Pymtech S.A.S'
-  authorimage = 'D:\Personal\PymTech\Repositorios\Pymtech\pymtech_website\pymtech_web\assets\images\pages\logo_pymptech_P_white_cloudsbg_squared.png'
+  authorimage = '\images\pages\logo_pymptech_P_white_cloudsbg_squared.png'
   moto = 'Custom solutions to technify and modernize companies, powered by Pymtech.'
   description = 'Loremipsum blabblaba'
   disable_theme_toggle = false
@@ -33,7 +33,9 @@ enableInlineShortcodes = true
   [params.p3]
     heading = "Our values"
     [[params.p3.content]]
-      text = "Transparency<br>Autonomy"
+      text = "Transparency"
+    [[params.p3.content]]
+      text = "Autonomy"
     [[params.p3.links]]
       text = "Meet our investors and advisors"
       url = "#"
@@ -81,6 +83,7 @@ enableInlineShortcodes = true
       [social_media.instagram]
       enabled = true
       url = "https://instagram.com/pymtech-co.com"
+      instagramIcon = "fab fa-instagram"
 
       [social_media.twitter]
       enabled = true
