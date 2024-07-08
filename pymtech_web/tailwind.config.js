@@ -10,14 +10,14 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
         'primary': {
-          DEFAULT: '#58478f',
+          DEFAULT: '#58478f', //midium purple
           50: '#FFFFFF',
           100: '#F9F9FE',
           200: '#dfd8e5',
           300: '#AEAFF8',
           400: '#888BF4',
           500: '#6366F1',
-          600: '#58478f',
+          600: '#865f9d', //low purple
           700: '#58478f',
           800: '#0E119E',
           900: '#0A0C6A'
@@ -48,7 +48,7 @@ module.exports = {
           800: '#1E2024',
           900: '#050506'
         },
-        // To change these, use https://www.tailwindshades.com/ with https://tailwindcss.com/docs/customizing-colors or create your own custom colors.
+         // To change these, use https://www.tailwindshades.com/ with https://tailwindcss.com/docs/customizing-colors or create your own custom colors.
       },
       lineHeight: {
         'extra-loose': '2.5',

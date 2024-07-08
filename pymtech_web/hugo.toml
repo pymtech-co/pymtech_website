@@ -16,7 +16,7 @@ enableInlineShortcodes = true
   author = 'Pymtech S.A.S'
   authorimage = '\images\pages\logo_pymptech_P_white_cloudsbg_squared.png'
   moto = 'Custom solutions to technify and modernize companies, powered by Pymtech.'
-  description = 'Loremipsum blabblaba'
+  description = ''
   disable_theme_toggle = false
   disable_stay_uptodate = false
   
@@ -36,6 +36,12 @@ enableInlineShortcodes = true
       text = "Transparency"
     [[params.p3.content]]
       text = "Autonomy"
+    [[params.p3.content]]
+      text = "Quality"
+    [[params.p3.content]]
+      text = "Commitment"
+    [[params.p3.content]]
+      text = "Adaptability"
     [[params.p3.links]]
       text = "Meet our investors and advisors"
       url = "#"
