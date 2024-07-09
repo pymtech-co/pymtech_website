@@ -12,6 +12,8 @@ enableInlineShortcodes = true
 [darkmode_js]
   paths = ["assets/js/darkmode.js"]
 
+ 
+
 [params]
   author = 'Pymtech S.A.S'
   authorimage = '\images\pages\logo_pymptech_P_white_cloudsbg_squared.png'
@@ -78,7 +80,7 @@ enableInlineShortcodes = true
   [params.social_media]
     [params.social_media.github]
       enabled = true
-      url = "https://github.com/pymtech-co.com"
+      url = "https://github.com/pymtech-co"
     [params.social_media.facebook]
       enabled = true
       url = "https://facebook.com/nusserstudios"

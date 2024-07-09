@@ -1089,6 +1089,10 @@ video {
   left: 50%;
 }
 
+.left-\[10\%\] {
+  left: 10%;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -1146,12 +1150,8 @@ video {
   margin-left: -0.75rem;
 }
 
-.-mr-3 {
-  margin-right: -0.75rem;
-}
-
-.-mr-40 {
-  margin-right: -10rem;
+.-ml-8 {
+  margin-left: -2rem;
 }
 
 .-mt-72 {
@@ -1290,16 +1290,8 @@ video {
   width: 1.5rem;
 }
 
-.w-9 {
-  width: 2.25rem;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .min-w-0 {
@@ -1472,11 +1464,6 @@ video {
   border-radius: 0.375rem;
 }
 
-.rounded-l-3xl {
-  border-top-left-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-}
-
 .rounded-r-3xl {
   border-top-right-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
@@ -1537,19 +1524,14 @@ video {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
+.bg-primary-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(136 139 244 / var(--tw-bg-opacity));
+}
+
 .bg-primary-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(134 95 157 / var(--tw-bg-opacity));
-}
-
-.bg-sky-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(125 211 252 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(102 119 136 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -1564,6 +1546,14 @@ video {
 .bg-zinc-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(244 244 245 / var(--tw-bg-opacity));
+}
+
+.fill-sky-600 {
+  fill: #0284c7;
+}
+
+.fill-slate-600 {
+  fill: #475569;
 }
 
 .object-fill {
@@ -1689,14 +1679,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
-}
-
 .pr-2 {
   padding-right: 0.5rem;
 }
@@ -1806,10 +1788,6 @@ video {
   font-weight: 600;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 .capitalize {
   text-transform: capitalize;
 }
@@ -1887,10 +1865,6 @@ video {
   color: rgb(24 24 27 / var(--tw-text-opacity));
 }
 
-.text-opacity-40 {
-  --tw-text-opacity: 0.4;
-}
-
 .placeholder-gray-500::-moz-placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(107 114 128 / var(--tw-placeholder-opacity));
@@ -1952,12 +1926,6 @@ video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-colors {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -2159,10 +2127,6 @@ EmojiSymbols;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-.group:hover .group-hover\:text-gray-400\/60 {
-  color: rgb(156 163 175 / 0.6);
-}
-
 .group:hover .group-hover\:opacity-50 {
   opacity: 0.5;
 }
@@ -2288,10 +2252,6 @@ EmojiSymbols;
     margin-top: 0px;
   }
 
-  .sm\:mt-16 {
-    margin-top: 4rem;
-  }
-
   .sm\:mt-4 {
     margin-top: 1rem;
   }
@@ -2314,10 +2274,6 @@ EmojiSymbols;
 
   .sm\:max-w-lg {
     max-width: 32rem;
-  }
-
-  .sm\:max-w-xl {
-    max-width: 36rem;
   }
 
   .sm\:px-0 {
@@ -2348,10 +2304,6 @@ EmojiSymbols;
   .sm\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .sm\:pt-6 {
-    padding-top: 1.5rem;
   }
 
   .sm\:text-center {
@@ -2387,14 +2339,6 @@ EmojiSymbols;
 
   .md\:mt-12 {
     margin-top: 3rem;
-  }
-
-  .md\:mt-16 {
-    margin-top: 4rem;
-  }
-
-  .md\:mt-8 {
-    margin-top: 2rem;
   }
 
   .md\:inline {
@@ -2472,10 +2416,6 @@ EmojiSymbols;
     padding-bottom: 0px;
   }
 
-  .md\:pt-12 {
-    padding-top: 3rem;
-  }
-
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2497,10 +2437,6 @@ EmojiSymbols;
     position: absolute;
   }
 
-  .lg\:relative {
-    position: relative;
-  }
-
   .lg\:inset-y-0 {
     top: 0px;
     bottom: 0px;
@@ -2508,14 +2444,6 @@ EmojiSymbols;
 
   .lg\:-right-8 {
     right: -2rem;
-  }
-
-  .lg\:left-0 {
-    left: 0px;
-  }
-
-  .lg\:left-80 {
-    left: 20rem;
   }
 
   .lg\:left-auto {
@@ -2532,10 +2460,6 @@ EmojiSymbols;
 
   .lg\:top-12 {
     top: 3rem;
-  }
-
-  .lg\:m-0 {
-    margin: 0px;
   }
 
   .lg\:mx-0 {
@@ -2556,20 +2480,8 @@ EmojiSymbols;
     margin-bottom: 1rem;
   }
 
-  .lg\:mt-0 {
-    margin-top: 0px;
-  }
-
   .lg\:grid {
     display: grid;
-  }
-
-  .lg\:h-full {
-    height: 100%;
-  }
-
-  .lg\:w-full {
-    width: 100%;
   }
 
   .lg\:w-screen {
@@ -2590,10 +2502,6 @@ EmojiSymbols;
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .lg\:items-start {
-    align-items: flex-start;
   }
 
   .lg\:items-center {
@@ -2638,14 +2546,6 @@ EmojiSymbols;
     padding-bottom: 5rem;
   }
 
-  .lg\:pl-12 {
-    padding-left: 3rem;
-  }
-
-  .lg\:pt-1 {
-    padding-top: 0.25rem;
-  }
-
   .lg\:pt-12 {
     padding-top: 3rem;
   }
@@ -2679,13 +2579,4 @@ EmojiSymbols;
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-}
-
-/* Estilos para el cambio de color con transición */
-.text-container h1 {
-  transition: color 0.3s ease; /* Transición suave de color durante 0.3 segundos */
-}
-
-.text-container:hover h1 {
-  color: #878cb8; /* Cambia el color del texto al pasar el mouse */
 }
