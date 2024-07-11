@@ -10,6 +10,7 @@ pymtech_web/.hugo_build.lock
 pymtech_web/resources/_gen/
 pymtech_web/assets/jsconfig.json
 pymtech_webhugo_stats.json
+pymtech_web/assets/css/style.css
 
 # Executable may be added to repository
 hugo.exe
