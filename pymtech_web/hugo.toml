@@ -12,22 +12,24 @@ enableInlineShortcodes = true
 [darkmode_js]
   paths = ["assets/js/darkmode.js"]
 
+ 
+
 [params]
   author = 'Pymtech S.A.S'
   authorimage = '\images\pages\logo_pymptech_P_white_cloudsbg_squared.png'
   moto = 'Custom solutions to technify and modernize companies, powered by Pymtech.'
-  description = 'Loremipsum blabblaba'
+  description = ''
   disable_theme_toggle = false
   disable_stay_uptodate = false
   
   [params.p1]
     heading = "Our mission"
-    image = "images/pages/our-mission.png"
+    image = "images/image_tree_homepage_our_mission.png"
     [[params.p1.content]]
       text = "Our mission at Pymtech is to help SMEs organize and optimize their internal processes by providing management software and personalized services that improve communication and operational efficiency, enabling them to grow sustainably."
   [params.p2]
     heading = "Our purpose"
-    image = "images/pages/hacktoberfest.jpg"
+    image = "images/image_purpose_homepage.png"
     [[params.p2.content]]
       text = "At Pymtech, we exist to empower small and medium-sized enterprises by organizing and optimizing their internal processes. Our goal is to solve internal communication problems through innovative software that efficiently channels information. We offer flexible subscriptions and custom development, providing technological solutions that evolve alongside our clients' needs. Additionally, we drive the growth of SMEs through the analysis of data acquired with our applications."
   [params.p3]
@@ -36,6 +38,12 @@ enableInlineShortcodes = true
       text = "Transparency"
     [[params.p3.content]]
       text = "Autonomy"
+    [[params.p3.content]]
+      text = "Quality"
+    [[params.p3.content]]
+      text = "Commitment"
+    [[params.p3.content]]
+      text = "Adaptability"
     [[params.p3.links]]
       text = "Meet our investors and advisors"
       url = "#"
@@ -72,7 +80,7 @@ enableInlineShortcodes = true
   [params.social_media]
     [params.social_media.github]
       enabled = true
-      url = "https://github.com/pymtech-co.com"
+      url = "https://github.com/pymtech-co"
     [params.social_media.facebook]
       enabled = true
       url = "https://facebook.com/nusserstudios"
