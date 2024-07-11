@@ -7,12 +7,9 @@ pymtech_web/node_modules
 # Public Hugo files
 pymtech_web/public
 pymtech_web/.hugo_build.lock
-
-# Generated files by hugo
-/public/
-/resources/_gen/
-/assets/jsconfig.json
-hugo_stats.json
+pymtech_web/resources/_gen/
+pymtech_web/assets/jsconfig.json
+pymtech_webhugo_stats.json
 
 # Executable may be added to repository
 hugo.exe

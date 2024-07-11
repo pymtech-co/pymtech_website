@@ -24,12 +24,12 @@ enableInlineShortcodes = true
   
   [params.p1]
     heading = "Our mission"
-    image = "images/pages/our-mission.png"
+    image = "images/image_tree_homepage_our_mission.png"
     [[params.p1.content]]
       text = "Our mission at Pymtech is to help SMEs organize and optimize their internal processes by providing management software and personalized services that improve communication and operational efficiency, enabling them to grow sustainably."
   [params.p2]
     heading = "Our purpose"
-    image = "images/pages/hacktoberfest.jpg"
+    image = "images/image_purpose_homepage.png"
     [[params.p2.content]]
       text = "At Pymtech, we exist to empower small and medium-sized enterprises by organizing and optimizing their internal processes. Our goal is to solve internal communication problems through innovative software that efficiently channels information. We offer flexible subscriptions and custom development, providing technological solutions that evolve alongside our clients' needs. Additionally, we drive the growth of SMEs through the analysis of data acquired with our applications."
   [params.p3]
