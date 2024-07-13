@@ -6,14 +6,15 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.13",
     "autoprefixer": "^10.4.19",
+    "concurrently": "^8.2.2",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "tailwindcss": "^3.4.4"
   },
   "scripts": {
-    "start": "hugo server --navigateToChanged",
     "dev": "hugo server --navigateToChanged -D --disableFastRender",
     "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
+    "start": "concurrently \"npm run dev\" \"npm run watch:tw\"",
     "watch:hugo": "hugo server",
     "build": "hugo --minify",
     "test": "hugo"
@@ -25,7 +26,6 @@
     "minimal",
     "responsive",
     "company"
-
   ],
   "author": "PYMTECH S.A.S"
 }

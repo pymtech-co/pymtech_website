@@ -10,17 +10,17 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
         'primary': {
-          DEFAULT: '#58478f', //midium purple
-          50: '#FFFFFF',
-          100: '#F9F9FE',
-          200: '#dfd8e5',
-          300: '#AEAFF8',
-          400: '#888BF4',
-          500: '#6366F1',
-          600: '#865f9d', //low purple
-          700: '#58478f',
-          800: '#0E119E',
-          900: '#0A0C6A'
+          DEFAULT: '#58478F', //MEDIUM PURPLE (YES BRAND)
+          50: '#FFFFFF', //WHITE
+          100: '#F9F9FE', //LIGHT GREY (NO BRAND)
+          200: '#DFD8E5', //LIGHT GREY (YES BRAND) 
+          300: '#AEAFF8', //LIGHT CREAM BLUE
+          400: '#888BF4', //MEDIUM CREAM BLUE
+          500: '#6366F1', //HIGH CREAM BLUE
+          600: '#865f9d', //LOW PURPLE
+          700: '#58478f', //MEDIUM PURPLE (YES BRAND) (REPETIDO SE PUEDE CAMBIAR)
+          800: '#0E119E', //VIVID BLUE
+          900: '#0A0C6A' //DARK BLUE
         },
         'secondary': {
           DEFAULT: '#EC4899',
