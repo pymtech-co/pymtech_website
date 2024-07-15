@@ -61,7 +61,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Create CNAME file
-        run: echo "pymtech-co.com" > public/CNAME          
+        run: echo "www.pymtech-co.com" > public/CNAME          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
