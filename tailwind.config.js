@@ -48,6 +48,41 @@ module.exports = {
           800: '#1E2024',
           900: '#050506'
         },
+        'high_purple': {  //BRAND COLORS
+          DEFAULT: '#2C2145', // HIGH PURPLE 
+          50: '#3C2D5E', // HIGH PURPLE 1
+          100: '#4D3A78', // HIGH PURPLE 2
+          200: '#5D4691', // HIGH PURPLE 3
+          300: '#6D52AB', // HIGH PURPLE 4
+        },
+         'medium_purple': {  //BRAND COLORS
+          DEFAULT: '#58478F', // MEDIUM PURPLE
+          50: '#6854A8', // MEDIUM PURPLE 1
+          100: '#7861C2', // MEDIUM PURPLE 2
+          200: '#876EDB', // MEDIUM PURPLE 3
+          300: '#987AF5' // MEDIUM PURPLE 4
+        },
+        'short_purple': {  //BRAND COLORS
+          DEFAULT: '#865F9D', // SHORT PURPLE
+          50: '#302238', // SHORT PURPLE 1
+          100: '#463252', // SHORT PURPLE 2
+          200: '#715185', // SHORT PURPLE 3
+          300: '#B280D1' // SHORT PURPLE 4
+         },
+        'short_blue': {  //BRAND COLORS
+           DEFAULT: '#56A5D9', // SHORT PURPLE
+           50: '#A4D91BF', // SHORT PURPLE 1
+           100: '#427EA6', // SHORT PURPLE 2
+           200: '#386B8C', // SHORT PURPLE 3
+           300: '#2E5773' // SHORT PURPLE 4
+         },
+         'low_gray': {  //BRAND COLORS
+           DEFAULT: '#DFD8E5', // LOW GRAY 
+           50: '#ADA8B3', // LOW GRAY 1
+           100: '#949099', // LOW GRAY 2
+           200: '#7C7880', // LOW GRAY 3
+           300: '#636066' // LOW GRAY 4
+         },
          // To change these, use https://www.tailwindshades.com/ with https://tailwindcss.com/docs/customizing-colors or create your own custom colors.
       },
       lineHeight: {
