@@ -72,10 +72,10 @@ enableInlineShortcodes = true
     action = "mailto:pymtech@pymtech-co.com"
     label = "Email address"
     placeholder = "Enter your email"
-    button = "pymtech@pymtech-co.com"
+    button = "Send a mail to: info@pymtech-co.com"
 
   [params.contact]
-    email = 'pymtech@pymtech-co.com'
+    email = 'info@pymtech-co.com'
     phone = '+57 321-852-2691'
   [params.social_media]
     [params.social_media.github]
