@@ -69,7 +69,7 @@ enableInlineShortcodes = true
     heading = "Contact"
     [[params.p5.content]]
       text = "We are excited to be your partner on the path to business success. Contact us today to discover how we can help you achieve your goals and maximize your business potential with Pymtech." 
-    action = "mailto:pymtech@pymtech-co.com"
+    action = "mailto:info@pymtech-co.com"
     label = "Email address"
     placeholder = "Enter your email"
     button = "Send a mail to: info@pymtech-co.com"
