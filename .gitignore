@@ -2,15 +2,15 @@
 .history
 
 # Node modules
-pymtech_web/node_modules
+node_modules
 
 # Public Hugo files
-pymtech_web/public
-pymtech_web/.hugo_build.lock
-pymtech_web/resources/_gen/
-pymtech_web/assets/jsconfig.json
-pymtech_webhugo_stats.json
-pymtech_web/assets/css/style.css
+public
+.hugo_build.lock
+resources/_gen/
+assets/jsconfig.json
+ugo_stats.json
+assets/css/style.css
 
 # Executable may be added to repository
 hugo.exe
@@ -19,3 +19,4 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+.github/workflows
