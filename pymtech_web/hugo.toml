@@ -62,17 +62,17 @@ enableInlineShortcodes = true
     [[params.p3.logos]]
       identifier = "f"
   [params.p4]
-    heading = "From the blog"
+    heading = "About us"
     [[params.p4.content]]
-      text = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed."
+      text = "At Pymtech, we are a multidisciplinary team dedicated to enhancing the competitiveness of small and medium-sized enterprises (SMEs) through innovation. We excel in leveraging the expertise of each team member to deliver solutions that foster sustainable and effective growth. We are committed to deeply understanding the needs of our clients. From initial consultancy to implementation and ongoing support, we strive to provide solutions that optimize operational efficiency and promote robust growth."
   [params.p5]
-    heading = "Stay Up to Date"
+    heading = "Contact"
     [[params.p5.content]]
-      text = "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
-    action = "#"
+      text = "We are excited to be your partner on the path to business success. Contact us today to discover how we can help you achieve your goals and maximize your business potential with Pymtech." 
+    action = "mailto:pymtech@pymtech-co.com"
     label = "Email address"
     placeholder = "Enter your email"
-    button = "Notify me"
+    button = "pymtech@pymtech-co.com"
 
   [params.contact]
     email = 'pymtech@pymtech-co.com'
@@ -87,28 +87,6 @@ enableInlineShortcodes = true
     [params.social_media.instagram]
       enabled = true
       url = "https://instagram.com/pymtech.co"
-
-  [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 20
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 50
-  [[menu.footer]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-  [[menu.footer]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 50
 
 [markup]
   [markup.goldmark]
