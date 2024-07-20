@@ -2,7 +2,6 @@
 author = 'PYMTECH'
 title = 'Política de Privacidad'
 date = 2024-07-20
-draft = true
 +++
 
 **Última actualización: 20 de julio de 2024**
